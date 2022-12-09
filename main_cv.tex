@@ -1,5 +1,3 @@
-%!TeX program = pdflatex
-
 \documentclass[12pt,letterpaper]{report}
 
 \usepackage[T1]{fontenc} % output T1 font encoding (8-bit) for accented characters as single glyph
@@ -13,7 +11,8 @@
 \usepackage{enumitem} % enumerate with [resume] option
 \usepackage{titlesec} % allow custom section fonts
 \usepackage{setspace} % custom line spacing
-\usepackage{natbib}
+\usepackage{biblatex}
+\addbibresource[]{biblio.bib}
 
 % what is your name?
 \newcommand{\myname}{Zhirui Luo}
@@ -87,7 +86,8 @@
 }
 
 \begin{document}
-\raggedright{}
+    % \nobibliography*
+    \raggedright{}
 
     % display your name as the document title
     \namefont{\myname}
@@ -96,7 +96,7 @@
     \vspace{1em}
     \begin{minipage}[t]{0.700\textwidth}
         % current primary affiliation, left-aligned
-        Department of Computer Science and Engineering \\
+        Department of Computer Science and Engineering (CSE)\\
         New Mexico Institute of Mining and Technology
     \end{minipage}
     \begin{minipage}[t]{0.295\textwidth}
@@ -110,24 +110,82 @@
     \section*{Education}
     
     \begin{tablist}
-      \item[Ph.D.] \tab{} CSE, New Mexico Institute of Mining and Technology, 2020-Now
-      \item[M.S.] \tab{} CSE, New Mexico Institute of Mining and Technology, 2018-2020
-      \item[B.S.] \tab{} CSE, New Mexico Institute of Mining and Technology, 2015-2017
-      \item[B.E.] \tab{} Software Engineering, Yangtze University, China, 2012-2015
+      \item[Ph.D.] \tab{}CSE, New Mexico Institute of Mining and Technology, Socorro, USA, 2020-Now
+      \item[M.S.] \tab{}CSE, New Mexico Institute of Mining and Technology, Socorro, USA, 2018-2020
+      \item[B.S.] \tab{}CSE, New Mexico Institute of Mining and Technology, Socorro, USA, 2015-2017
+      \item[B.E.] \tab{}Software Engineering, Yangtze University, Jingzhou, China, 2012-2015
     \end{tablist}
     
     \section*{Research Areas}
     \begin{itemize}
-      \item Deep Learning
-      \item Neural Architecture Search
+      \item Smart meter: building occupancy detection, socio-demographic info identification, and load monitoring
+      \item Neural Architecture Search (NAS): automatic searching for better deep learning model architecture
+      \item Social computation: multi-modal deep learning method for rumor detection on social media
+      \item Computer Vision: deep learning plant leaf diseases detection and neural adversarial attack \& detection
     \end{itemize}
     
     \section*{Publications}
     \subsection*{Journal Articles}
     \begin{tablist}
-        \item[2022] \tab{}
+        \item[2022] \tab{}\fullcite{li2022new}
+        \item[2022] \tab{}\fullcite{qi2022novel} 
+        \item[2021] \tab{}\fullcite{luo2021deep}
+        \item[2021] \tab{}\fullcite{luo2021study}
+        \item[2018] \tab{}\fullcite{zamani2018patterns}
+        \item[2015] \tab{}\fullcite{li2015research}
     \end{tablist}
-    
-    \bibliographystly{plainnat}
-    \bibliography{biblio.bib}
+
+    \subsection*{Conference Proceedings}
+    \begin{tablist}
+        \item[2022] \tab{}\fullcite{luo2022abode-net}
+        \item[2021] \tab{}\fullcite{li2021deep}
+    \end{tablist}
+
+    % \section*{INVITED TALKS}
+    % \subsection*{Campus Talks}
+
+    \section*{Conference Activity}
+    \begin{tablist}
+        \item[2022] \tab{}The 7th International Conference on Smart Computing and Communication (SmartCom 2022), New York, USA
+        \item[2022] \tab{}NSF EPSCoR Workshop on Artificial Intelligence \& No-Boundary Thinking, Little Rock, Arkansa
+    \end{tablist}
+
+    \section*{Awards}
+    \subsection*{Awards and Honors}
+    \begin{tablist}
+        \item[2022] \tab{}Best Student Paper Award, SmartCom2022
+        \item[2022] \tab{}First Place Graduate Poster Award, New Mexico Research Symposium (NMRS)
+        \item[2022] \tab{}Second Place Graduate Poster Award, NMT Student Research Symposium
+    \end{tablist}
+
+    \section*{Teaching}
+    \begin{tablist}
+        \item[2022 Summer] \tab{}Introductory-level Python course, Upward Bound Math and Science
+        \item[2020-2022] \tab{}Compiler Writing Lab
+        \item[2018-2022] \tab{}Teaching Assistant
+    \end{tablist}
+
+    \section*{Service}
+    \subsection*{Academic Journal and Conference Peer Review}
+    \begin{itemize}
+        \item IEEE Wireless Communications and Networking Conference (WCNC)
+        \item Scientific Reports
+        \item Knowledge-Based Systems
+        \item PeerJ Computer Science
+        \item Journal of King Saud University - Computer and Information Sciences 
+        \item The 36th ACM/SIGAPP Symposium On Applied Computing
+    \end{itemize}
+
+    \section*{Research Labs and Assistantship}
+    \begin{tablist}
+        \item[2018-2020] Research assistant on privacy and intrusion detection 
+        \item[2017] Research assistant on optimization method of the twice-differetiable non-convex function
+        \item[2016-2017] Robotics Lab Research, NMT
+    \end{tablist}
+
+    \section*{Professional Employment}
+    \begin{tablist}
+        \item[2018] \tab{}C++ Development, Zhejiang Guozi Robotics, Hangzhou, China
+    \end{tablist}
+
 \end{document}
