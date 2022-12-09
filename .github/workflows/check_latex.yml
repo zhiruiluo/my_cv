@@ -1,0 +1,21 @@
+name: Check Latex Compilation
+
+on:
+  push:
+    branches: ["editing_branch"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Compile LaTex document
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: main_cv.tex
+      - name: Upload PDF file
+        uses: actions/upload-artifact@v3
+        with:
+          name: PDF
+          path: main_cv.pdf
