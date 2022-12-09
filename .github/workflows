@@ -14,4 +14,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: PDF
-        path: main.pdf
+        path: main_cv.pdf
