@@ -16,3 +16,10 @@ jobs:
         with:
           name: PDF
           path: main_cv.pdf
+      - name: Release PDF
+        uses: softprops/action-gh-release@v1
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
