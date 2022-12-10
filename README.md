@@ -12,9 +12,11 @@ Enabling github actions and Github pages will make your CV available online at `
 - Setup GitHub Pages
     - Go to Settings
     - Open Pages
-    - Choose ``GitHub Actions``` in Build and deployment section
+    - Choose ```GitHub Actions``` in Build and deployment section
 
 # Demo
 Check a [[Live Demo]](https://zhiruiluo.github.io/my_cv/main_cv.pdf)
+
+Check this [[gh-pages]](https://zhiruiluo.github.io/my_cv)
 
 Visit my personal website: [zhiruiluo.github.io](https://zhiruiluo.github.io)
