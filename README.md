@@ -13,7 +13,7 @@ Enabling github actions and Github pages will make your CV available online at `
     - Go to Settings
     - Open Pages
     - Choose ```GitHub Actions``` in Build and deployment section
-- Check your live pages and pdf after all actions done
+- Check your live pdf and gh-pages after all actions done
     - PDF url: ```https://{your_github_username}.github.io/my_cv/main_cv.pdf```
     - GH-Pages: ```https://{your_github_username}.github.io/my_cv```
     
