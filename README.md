@@ -5,7 +5,7 @@ Fork and replace the content to your information.
 
 Enabling github actions and Github pages will make your CV available online at ```https://{your_github_username}.github.io/my_cv/main_cv.pdf```.
 
-# Process of publish CV
+# Steps of publishing CV
 - Enable GitHub Actions
     - Go to Actions
     - Click Enable GitHub Actions
@@ -13,10 +13,14 @@ Enabling github actions and Github pages will make your CV available online at `
     - Go to Settings
     - Open Pages
     - Choose ```GitHub Actions``` in Build and deployment section
-
+- Check your live pages and pdf after all actions done
+    - PDF url: ```https://{your_github_username}.github.io/my_cv/main_cv.pdf```
+    - GH-Pages: ```https://{your_github_username}.github.io/my_cv```
+    
 # Demo
-Check a [[Live Demo]](https://zhiruiluo.github.io/my_cv/main_cv.pdf)
+My username is ```zhiruiluo```. Then, the PDF url and GH-Pages are:
+- Check live PDF [[https://zhiruiluo.github.io/my_cv/main_cv.pdf]](https://zhiruiluo.github.io/my_cv/main_cv.pdf)
+- Check live GH-Pages [[https://zhiruiluo.github.io/my_cv]](https://zhiruiluo.github.io/my_cv)
 
-Check this [[gh-pages]](https://zhiruiluo.github.io/my_cv)
-
-Visit my personal website: [zhiruiluo.github.io](https://zhiruiluo.github.io)
+# My Personal Website
+Visit my personal website at [zhiruiluo.github.io](https://zhiruiluo.github.io)
