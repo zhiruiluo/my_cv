@@ -2,7 +2,7 @@ name: Check Latex Compilation
 
 on:
   push:
-    branches: ["editing_branch"]
+    branches: ["main"]
     paths-ignore:
       - "README.md"
 
