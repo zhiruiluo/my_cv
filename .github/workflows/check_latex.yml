@@ -2,10 +2,12 @@ name: Check Latex Compilation
 
 on:
   push:
-    branches: ["editing_branch"]
     paths-ignore:
       - "README.md"
-
+  pull_request:
+    paths-ignore:
+      - "README.md"
+      
 jobs:
   build:
     runs-on: ubuntu-latest
