@@ -3,7 +3,7 @@
 # Personal academic curriculum vitae (CV) latex templates
 Fork and replace the content to your information. Or click `use this template`
 
-Enabling github actions and Github pages will make your CV available online at ```https://{your_github_username}.github.io/my_cv/main_cv.pdf```.
+Enabling github actions and Github pages will make your CV available online at ```https://{your_github_username}.github.io/{repo_name}/main_cv.pdf```.
 
 # Steps of publishing CV
 - Enable GitHub Actions
@@ -14,11 +14,11 @@ Enabling github actions and Github pages will make your CV available online at `
     - Open Pages
     - Choose ```GitHub Actions``` in Build and deployment section
 - Check your live pdf and gh-pages after all actions done
-    - PDF url: ```https://{your_github_username}.github.io/my_cv/main_cv.pdf```
-    - GH-Pages: ```https://{your_github_username}.github.io/my_cv```
+    - PDF url: ```https://{your_github_username}.github.io/{repo_name}/main_cv.pdf```
+    - GH-Pages: ```https://{your_github_username}.github.io/{repo_name}```
     
 # Demo
-My username is ```zhiruiluo```. Then, the PDF url and GH-Pages are:
+My username is ```zhiruiluo``` and repo name is ```my_cv```. Then, the PDF url and GH-Pages are:
 - Check live PDF [[https://zhiruiluo.github.io/my_cv/main_cv.pdf]](https://zhiruiluo.github.io/my_cv/main_cv.pdf)
 - Check live GH-Pages [[https://zhiruiluo.github.io/my_cv]](https://zhiruiluo.github.io/my_cv)
 
