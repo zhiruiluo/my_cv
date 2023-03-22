@@ -24,3 +24,6 @@ My username is ```zhiruiluo``` and repo name is ```my_cv```. Then, the PDF url a
 
 # My Personal Website
 Visit my personal website at [zhiruiluo.github.io](https://zhiruiluo.github.io)
+
+# Credits
+Geoff Boeing's LaTeX academic CV: [https://github.com/gboeing/cv](https://github.com/gboeing/cv)
