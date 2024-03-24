@@ -5,6 +5,11 @@ Click `use this template` and replace the content to your information.
 
 Enabling github actions and Github pages will make your CV available online at ```https://{your_github_username}.github.io/{repo_name}/main_cv.pdf```.
 
+# High-lighted Features
+- Provided CV template for your fast adpotion
+- Bold the name of specific author in all bib entries
+- Automatic build pdf and publish to github pages when merge to main branch
+
 # Steps of publishing CV
 - Enable GitHub Actions
     - Go to Actions
