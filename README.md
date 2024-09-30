@@ -17,7 +17,7 @@ Enabling github actions and Github pages will make your CV available online at `
 - Bold the name of specific author in all bib entries
 - Automatic build pdf and publish to github pages when merge to main branch
 
-# Prerequisites
+# Knowledge Prerequisites
 
 - LaTex
 - Basic Github commands
