@@ -26,7 +26,6 @@ Enabling github actions and Github pages will make your CV available online at `
 
 - Click ```Use this template``` and choose ```Create a new repository```
     - This will create a new repository in your Github account
-    - 
 - Enable GitHub Actions (This step may be skipped when using template)
     - Go to Actions (On the top menu)
     - Click Enable GitHub Actions
