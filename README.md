@@ -30,8 +30,8 @@ Enabling github actions and Github pages will make your CV available online at `
     - Go to Actions (On the top menu)
     - Click Enable GitHub Actions
 - Setup GitHub Pages
-    - Go to Settings
-    - click ```Pages``` (on the left side menu)
+    - Go to ```Settings``` (On the top menu)
+    - Click ```Pages``` (On the left side menu)
     - Choose ```GitHub Actions``` in ```Build and deployment``` section (Keep other setting the same unless you know their meaning)
 - Replace your own content
     - Clone repo or edit in codespaces
